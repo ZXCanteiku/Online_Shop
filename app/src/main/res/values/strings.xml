@@ -2,4 +2,10 @@
     <string name="app_name">Online_Shop</string>
     <string name="technology">technology</string>
     <string name="zxc">ZXC</string>
+    <string name="haveAcc">Уже есть аккаунт? Войдите</string>
+    <string name="name">Имя</string>
+    <string name="email">Email</string>
+    <string name="pass">Пароль</string>
+    <string name="crate">Создать</string>
+    <string name="crate_account">Создать аккаунт</string>
 </resources>

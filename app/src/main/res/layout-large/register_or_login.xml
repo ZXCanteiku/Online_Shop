@@ -78,26 +78,20 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="30sp"
                 android:layout_marginRight="30sp"
-                android:text="Button"
-                android:textAllCaps="false"
-                android:background="@drawable/my_button"/>
+                android:text="Button" />
 
             <TextView
                 android:id="@+id/sign"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20sp"
-                android:layout_marginLeft="30sp"
-                android:layout_marginRight="30sp"
                 android:clickable="true"
                 android:gravity="center"
                 android:onClick="ClickText"
-                android:textAppearance="@style/next"
-                android:textColor="@color/textColorBtn"
-                android:text="@string/haveAcc" />
+                android:text="TextView" />
 
             <TextView
-                android:id="@+id/skip"
+                android:id="@+id/button3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30sp"
@@ -105,10 +99,9 @@
                 android:layout_marginRight="30sp"
                 android:layout_marginBottom="40sp"
                 android:onClick="ClickText"
-                android:text="Пропустить"
-                android:textAppearance="@style/next"
+                android:text="sdfsfdsf"
                 android:gravity="center"
-                />
+                android:textColor="@color/textColorBtn" />
 
 
         </LinearLayout>
