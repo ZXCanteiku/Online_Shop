@@ -8,4 +8,21 @@
     <string name="pass">Пароль</string>
     <string name="crate">Создать</string>
     <string name="crate_account">Создать аккаунт</string>
+    <string name="home">Главная</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="categoriesActivity">CategoriesActivity</string>
+    <string name="title_home">Home</string>
+    <string name="search">Search</string>
+    <string name="shop">Корзина</string>
+    <string name="sale">-50%</string>
+    <string name="person">Профиль</string>
+    <string name="categories">Категории</string>
+    <string name="Favorites">Избранное</string>
+    <string name="Gifts">Подарки</string>
+    <string name="Popular">Популярное</string>
+    <string name="Profile">Профиль</string>
+    <string name="Create_acc">Создать аккаунт</string>
+    <string name="to_come">Войти</string>
+    <string name="entry">Вход</string>
+    <string name="notHaveAcc">Нет аккаунта? Создайте его сейчас</string>
 </resources>

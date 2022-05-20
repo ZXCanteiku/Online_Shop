@@ -8,7 +8,7 @@
     android:layout_gravity="center"
     android:orientation="vertical"
     android:background="@color/backgroundColor"
-    tools:context=".RegisterOrLoginActivity">
+    tools:context=".entrance.RegisterOrLoginActivity">
 
     <RelativeLayout
 
@@ -78,30 +78,37 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="30sp"
                 android:layout_marginRight="30sp"
-                android:text="Button" />
+                android:text="@string/Create_acc"
+                android:textAllCaps="false"
+                android:background="@drawable/my_button"/>
 
             <TextView
                 android:id="@+id/sign"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20sp"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
                 android:clickable="true"
                 android:gravity="center"
                 android:onClick="ClickText"
-                android:text="TextView" />
+                android:textAppearance="@style/next"
+                android:textColor="@color/textColorBtn"
+                android:text="@string/haveAcc" />
 
             <TextView
-                android:id="@+id/button3"
+                android:id="@+id/skip"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="30sp"
                 android:layout_marginTop="40sp"
                 android:layout_marginRight="30sp"
-                android:layout_marginBottom="40sp"
-                android:gravity="center"
+                android:layout_marginBottom="80sp"
                 android:onClick="ClickText"
-                android:text="sdfsfdsf"
-                android:textColor="@color/textColorBtn" />
+                android:text="Пропустить"
+                android:textAppearance="@style/next"
+                android:gravity="center"
+                />
 
 
         </LinearLayout>

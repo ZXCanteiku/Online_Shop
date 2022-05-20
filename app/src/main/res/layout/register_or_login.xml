@@ -8,7 +8,7 @@
     android:layout_gravity="center"
     android:orientation="vertical"
     android:background="@color/backgroundColor"
-    tools:context=".RegisterOrLoginActivity">
+    tools:context=".entrance.RegisterOrLoginActivity">
 
     <RelativeLayout
 
@@ -78,7 +78,7 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="30sp"
                 android:layout_marginRight="30sp"
-                android:text="Button"
+                android:text="@string/Create_acc"
                 android:textAllCaps="false"
                 android:background="@drawable/my_button"/>
 
@@ -103,7 +103,7 @@
                 android:layout_marginLeft="30sp"
                 android:layout_marginTop="40sp"
                 android:layout_marginRight="30sp"
-                android:layout_marginBottom="40sp"
+                android:layout_marginBottom="80sp"
                 android:onClick="ClickText"
                 android:text="Пропустить"
                 android:textAppearance="@style/next"
